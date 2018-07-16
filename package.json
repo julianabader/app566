@@ -1,0 +1,27 @@
+{
+  "name": "juliana",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm:server\" \"npm:client\"",
+    "server": "node app",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "classnames": "^2.2.6",
+    "concurrently": "^3.6.0",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "mongoose": "^5.1.4",
+    "morgan": "~1.9.0",
+    "normalize.css": "^8.0.0",
+    "react-loading-overlay": "^0.3.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "reset-css": "^4.0.1"
+  }
+}
